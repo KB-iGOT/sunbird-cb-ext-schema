@@ -73,7 +73,7 @@
     "refId": {
       "dataType": "string"
     },
-    "designation": {
+    "refType": {
       "dataType": "string"
     }
   }
