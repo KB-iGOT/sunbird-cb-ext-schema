@@ -90,7 +90,8 @@
                 "application/json",
                 "application/quiz",
                 "application/survey",
-                "application/offline"
+                "application/offline",
+                "external/redirect"
             ]
         },
         "osId": {
