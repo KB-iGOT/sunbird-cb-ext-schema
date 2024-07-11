@@ -1478,7 +1478,8 @@
             "Curated Program",
             "Standalone Assessment",
             "Moderated Assessment",
-            "Invite-Only Assessment"
+            "Invite-Only Assessment",
+            "External Redirect"  
           ]
         },
         "resourceCategory": {
