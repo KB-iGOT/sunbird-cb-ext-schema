@@ -633,6 +633,10 @@
     },
     "questionLevel": {
       "type": "string"
+    },
+    "downloadUrl": {
+      "type": "string",
+      "format": "url"
     }
   },
   "additionalProperties": false
