@@ -430,8 +430,7 @@
         "MCQ-SCA",
         "MTF",
         "MCQ-SCA-TF",
-        "MCQ-MCA-W",
-        "FTB-OPTIONS"
+        "MCQ-MCA-W"
       ]
     },
     "scoringMode": {
