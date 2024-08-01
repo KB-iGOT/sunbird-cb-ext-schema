@@ -636,6 +636,10 @@
     "questionLevel": {
       "type": "string"
     },
+    "downloadUrl": {
+      "type": "string",
+      "format": "url"
+    },
     "totalMarks": {
       "type": "number"
     }
