@@ -90,7 +90,8 @@
                 "application/json",
                 "application/quiz",
                 "application/survey",
-                "application/offline"
+                "application/offline",
+                "external/redirect"
             ]
         },
         "osId": {
@@ -1477,7 +1478,8 @@
             "Curated Program",
             "Standalone Assessment",
             "Moderated Assessment",
-            "Invite-Only Assessment"
+            "Invite-Only Assessment",
+            "External Redirect"  
           ]
         },
         "resourceCategory": {
