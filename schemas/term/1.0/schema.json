@@ -69,6 +69,23 @@
     },
      "displayName": {
       "dataType": "string"
+    },
+    "refId": {
+      "dataType": "string"
+    },
+    "refType": {
+      "dataType": "string"
+    },
+    "parents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "identifier": {
+            "type": "string"
+          }
+        }
+      }
     }
   }
 }
