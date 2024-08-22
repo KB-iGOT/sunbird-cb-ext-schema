@@ -823,8 +823,13 @@
     },
     "totalMarks": {
       "type": "number"
+    },
+    "courseCategory": {
+      "type": "string",
+      "enum": [
+        "CQF Assessment"
+      ]
     }
-
   },
   "additionalProperties": false
 }
