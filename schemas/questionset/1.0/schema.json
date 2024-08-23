@@ -760,7 +760,8 @@
       "type" : "string",
       "enum": [
         "questionWeightage",
-        "optionalWeightage"
+        "optionalWeightage",
+        "questionOptionWeightage"
       ]
     },
     "noOfSection": {
@@ -829,6 +830,9 @@
       "enum": [
         "CQF Assessment"
       ]
+    },
+    "sectionWeightage": {
+      "type": "number"
     }
   },
   "additionalProperties": false
