@@ -761,7 +761,7 @@
       "enum": [
         "questionWeightage",
         "optionalWeightage",
-        "sectionWeightage"
+        "sectionalWeightage"
       ]
     },
     "noOfSection": {
@@ -830,6 +830,9 @@
       "enum": [
         "CQF Assessment"
       ]
+    },
+    "passingPercentage": {
+      "type": "number"
     }
   },
   "additionalProperties": false
