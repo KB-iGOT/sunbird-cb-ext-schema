@@ -761,7 +761,7 @@
       "enum": [
         "questionWeightage",
         "optionalWeightage",
-        "sectionalWeightage"
+        "questionOptionWeightage"
       ]
     },
     "noOfSection": {
