@@ -831,7 +831,7 @@
         "CQF Assessment"
       ]
     },
-    "passingPercentage": {
+    "sectionWeightage": {
       "type": "number"
     }
   },
