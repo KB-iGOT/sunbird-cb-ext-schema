@@ -760,7 +760,8 @@
       "type" : "string",
       "enum": [
         "questionWeightage",
-        "optionalWeightage"
+        "optionalWeightage",
+        "sectionWeightage"
       ]
     },
     "noOfSection": {
