@@ -753,7 +753,8 @@
         "Blended Program",
         "Curated Program",
         "Standalone Assessment",
-        "Moderated Assessment"
+        "Moderated Assessment",
+        "CQF Assessment"
       ]
     },
     "assessmentType" : {
@@ -824,12 +825,6 @@
     },
     "totalMarks": {
       "type": "number"
-    },
-    "courseCategory": {
-      "type": "string",
-      "enum": [
-        "CQF Assessment"
-      ]
     },
     "sectionWeightage": {
       "type": "number"
