@@ -1408,6 +1408,12 @@
         "Invite-Only Assessment",
         "External Redirect"
       ]
+    },
+    "competencies_v6": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
     }
   }
 }
