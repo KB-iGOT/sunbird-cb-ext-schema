@@ -70,9 +70,6 @@
       },
       "instructions": {
         "type": "string"
-      },
-      "outcomeDeclaration": {
-        "type": "string"
       }
     },
     "primaryKey": [
