@@ -760,7 +760,8 @@
       "type" : "string",
       "enum": [
         "questionWeightage",
-        "optionalWeightage"
+        "optionalWeightage",
+        "questionOptionWeightage"
       ]
     },
     "noOfSection": {
@@ -823,6 +824,12 @@
     },
     "totalMarks": {
       "type": "number"
+    },
+    "sectionWeightage": {
+      "type": "number"
+    },
+    "cqfVersion": {
+      "type": "string"
     }
 
   },
