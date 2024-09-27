@@ -837,8 +837,10 @@
         "section",
         "paragraph"
       ]
+    },
+    "questionParagraph": {
+      "type": "string"
     }
-
   },
   "additionalProperties": false
 }
