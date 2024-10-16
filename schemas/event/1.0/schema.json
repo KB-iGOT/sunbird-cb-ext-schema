@@ -254,6 +254,12 @@
                 "Open",
                 "Closed"
             ]
+        },
+        "batches": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
         }
     }
 }
