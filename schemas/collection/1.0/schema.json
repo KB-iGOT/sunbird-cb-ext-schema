@@ -1406,7 +1406,8 @@
         "Standalone Assessment",
         "Moderated Assessment",
         "Invite-Only Assessment",
-        "External Redirect"
+        "External Redirect",
+        "Case Study"
       ]
     },
     "contentTagNames": {
