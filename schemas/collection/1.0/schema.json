@@ -1305,6 +1305,36 @@
     },
     "totalNumberOfRatings": {
       "type": "string"
+    },
+    "contextYear" : {
+        "type": "array",
+        "items": {
+            "type": "string"
+        }
+    },
+    "contextSDGs" : {
+        "type": "array",
+        "items": {
+            "type": "string"
+        }
+    },
+    "contextStateOrUTs": {
+        "type": "array",
+        "items": {
+            "type": "string"
+        }
+    },
+    "teachersSection": {
+        "type": "array",
+          "items": {
+            "type": "string"
+        }
+    },
+    "referenceSection": {
+        "type": "array",
+          "items": {
+            "type": "string"
+        }
     }
   }
 }

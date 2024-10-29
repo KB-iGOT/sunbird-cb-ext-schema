@@ -1409,6 +1409,24 @@
                 "items": {
                     "type": "object"
                 }
+            },
+            "contextYear" : {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            },
+            "contextSDGs" : {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            },
+            "contextStateOrUTs": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
             }
         }
     }
