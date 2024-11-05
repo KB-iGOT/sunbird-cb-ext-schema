@@ -844,6 +844,12 @@
     },
     "questionParagraph": {
       "type": "string"
+    },
+    "competencies_v6": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
     }
   },
   "additionalProperties": false
