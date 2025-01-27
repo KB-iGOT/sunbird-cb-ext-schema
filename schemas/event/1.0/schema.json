@@ -36,7 +36,8 @@
             "enum": [
                 "Draft",
                 "Live",
-                "Retired"
+                "Retired",
+                "SentToPublish"
             ],
             "default": "Draft"
         },
@@ -260,6 +261,18 @@
           "items": {
             "type": "object"
           }
+        },
+        "competencies_v6": {
+            "type": "array",
+            "items": {
+                "type": "object"
+            }
+        },
+        "eventHandouts": {
+            "type": "array",
+            "items": {
+                "type": "object"
+            }
         }
     }
 }
