@@ -37,7 +37,9 @@
                 "Draft",
                 "Live",
                 "Retired",
-                "SentToPublish"
+                "SentToPublish",
+                "Rejected",
+                "Cancelled"
             ],
             "default": "Draft"
         },
@@ -269,6 +271,42 @@
             }
         },
         "eventHandouts": {
+            "type": "array",
+            "items": {
+                "type": "object"
+            }
+        },
+        "createdByName": {
+            "dataType": "string"
+        },
+        "createdByEmail": {
+            "dataType": "string"
+        },
+        "publishedOn": {
+            "type": "string"
+        },
+        "submittedOn": {
+            "type": "string"
+        },
+        "cancelledOn": {
+            "type": "string"
+        },
+        "cancelledBy": {
+            "type": "string"
+        },
+        "rejectedOn": {
+            "type": "string"
+        },
+        "enrollments": {
+            "type": "object"
+        },
+        "certificates": {
+            "type": "object"
+        },
+        "streamType": {
+            "type": "string"
+        },
+        "speakers": {
             "type": "array",
             "items": {
                 "type": "object"
