@@ -3,17 +3,6 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "title": "Event",
     "type": "object",
-    "required": [
-        "name",
-        "status",
-        "code",
-        "startDate",
-        "endDate",
-        "startTime",
-        "endTime",
-        "registrationEndDate",
-        "eventType"
-    ],
     "properties": {
         "name": {
             "type": "string",
@@ -311,6 +300,9 @@
             "items": {
                 "type": "object"
             }
+        },
+        "reasonForReject": {
+            "type": "string"
         }
     }
 }
