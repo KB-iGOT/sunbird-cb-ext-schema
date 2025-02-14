@@ -3,17 +3,6 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "title": "Event",
     "type": "object",
-    "required": [
-        "name",
-        "status",
-        "code",
-        "startDate",
-        "endDate",
-        "startTime",
-        "endTime",
-        "registrationEndDate",
-        "eventType"
-    ],
     "properties": {
         "name": {
             "type": "string",
@@ -36,7 +25,10 @@
             "enum": [
                 "Draft",
                 "Live",
-                "Retired"
+                "Retired",
+                "SentToPublish",
+                "Rejected",
+                "Cancelled"
             ],
             "default": "Draft"
         },
@@ -260,6 +252,57 @@
           "items": {
             "type": "object"
           }
+        },
+        "competencies_v6": {
+            "type": "array",
+            "items": {
+                "type": "object"
+            }
+        },
+        "eventHandouts": {
+            "type": "array",
+            "items": {
+                "type": "object"
+            }
+        },
+        "createdByName": {
+            "dataType": "string"
+        },
+        "createdByEmail": {
+            "dataType": "string"
+        },
+        "publishedOn": {
+            "type": "string"
+        },
+        "submittedOn": {
+            "type": "string"
+        },
+        "cancelledOn": {
+            "type": "string"
+        },
+        "cancelledBy": {
+            "type": "string"
+        },
+        "rejectedOn": {
+            "type": "string"
+        },
+        "enrollments": {
+            "type": "object"
+        },
+        "certificates": {
+            "type": "object"
+        },
+        "streamType": {
+            "type": "string"
+        },
+        "speakers": {
+            "type": "array",
+            "items": {
+                "type": "object"
+            }
+        },
+        "reasonForReject": {
+            "type": "string"
         }
     }
 }
