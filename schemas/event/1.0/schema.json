@@ -303,6 +303,12 @@
         },
         "reasonForReject": {
             "type": "string"
+        },
+        "startDateTime":{
+            "type":"String"
+        },
+        "endDateTime":{
+            "type":"String"
         }
     }
 }
