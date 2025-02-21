@@ -305,10 +305,10 @@
             "type": "string"
         },
         "startDateTime":{
-            "type":"String"
+            "type":"string"
         },
         "endDateTime":{
-            "type":"String"
+            "type":"string"
         }
     }
 }
