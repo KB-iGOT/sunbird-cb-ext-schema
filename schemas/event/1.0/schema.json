@@ -266,6 +266,26 @@
           "items": {
             "type": "object"
           }
+        },
+        "resourceType": {
+            "type": "string"
+        },
+        "resourceTypeDetails": {
+            "type": "object",
+            "properties": {
+                "stateOrMinistryName": {
+                    "type": "string"
+                },
+                "stateOrMinistryId" : {
+                    "type": "string
+                },
+                "year": {
+                    "type": "string"
+                },
+                "certTemplate": {
+                    "type": "string"
+                }
+            }
         }
     }
 }
