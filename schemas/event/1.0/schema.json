@@ -335,6 +335,14 @@
                     "type": "string"
                 }
             }
+        },
+        "testStartDateTimeInEpoch": {
+            "type": "date",
+            "format": "epoch_millis"  
+        },
+        "testEndDateTimeInEpoch": {
+            "type": "date",
+            "format": "epoch_millis"
         }
     }
 }
