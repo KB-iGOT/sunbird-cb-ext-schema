@@ -1535,6 +1535,9 @@
           "items": {
             "type": "object"
           }
+        },
+        "durationInSeconds":{
+            "type": "number"
         }
     }
 }
