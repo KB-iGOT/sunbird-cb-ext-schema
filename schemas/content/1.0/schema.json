@@ -1536,8 +1536,11 @@
             "type": "object"
           }
         },
-        "durationInSeconds":{
+        "durationInSeconds": {
             "type": "number"
+        },
+        "accessSettingsEnabled" : {
+        "type": "boolean"
         }
     }
 }
