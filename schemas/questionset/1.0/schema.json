@@ -866,7 +866,8 @@
     "contextCategory": {
       "type": "string",
       "enum": [
-        "Final Program Assessment"
+        "Final Program Assessment",
+        "Pre Enrolment Assessment"
       ]
     },
     "sectorDetails_v1": {

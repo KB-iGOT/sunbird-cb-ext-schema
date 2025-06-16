@@ -1540,7 +1540,13 @@
             "type": "number"
         },
         "accessSettingsEnabled" : {
-        "type": "boolean"
+            "type": "boolean"
+        },
+        "contextCategory": {
+            "type": "string",
+            "enum": [
+                "Pre Enrolment Resource"
+            ]
         }
     }
 }

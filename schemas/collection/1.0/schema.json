@@ -1478,6 +1478,18 @@
     },
     "accessSettingsEnabled" : {
       "type": "boolean"
+    },
+    "contextCategory": {
+      "type": "string",
+      "enum": [
+        "Pre Read Course"
+      ]
+    },
+    "preEnrolmentResources": {
+      "type": "array",
+      "items": {
+          "type": "string"
+      }
     }
   }
 }
