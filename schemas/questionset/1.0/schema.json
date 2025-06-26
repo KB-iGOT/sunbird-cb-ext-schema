@@ -875,6 +875,9 @@
       "items": {
         "type": "object"
       }
+    },
+    "isMandatory": {
+        "type": "boolean"
     }
   },
   "additionalProperties": false
