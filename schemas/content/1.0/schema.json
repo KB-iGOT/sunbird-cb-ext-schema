@@ -1550,6 +1550,9 @@
         },
         "isMandatory": {
             "type": "boolean"
+        },
+        "testLanguageMapV1": {
+            "type": "object"
         }
     }
 }

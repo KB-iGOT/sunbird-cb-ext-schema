@@ -1414,7 +1414,9 @@
         "Invite-Only Assessment",
         "External Redirect",
         "Case Study",
-        "Comprehensive Assessment Program"
+        "Comprehensive Assessment Program",
+        "Multilingual Course",
+        "Pre Enrolment Assessment"
       ]
     },
     "contentTagNames": {
@@ -1495,11 +1497,14 @@
     "isMandatory": {
         "type": "boolean"
     },
-        "startDate": {
+    "startDate": {
       "type": "string"
     },
-        "endDate": {
+    "endDate": {
       "type": "string"
+    },
+    "testLanguageMapV1": {
+      "type": "object"
     }
   }
 }
