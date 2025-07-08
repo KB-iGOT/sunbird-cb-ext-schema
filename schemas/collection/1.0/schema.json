@@ -1503,7 +1503,7 @@
     "endDate": {
       "type": "string"
     },
-    "testLanguageMapV1": {
+    "languageMapV1": {
       "type": "object"
     }
   }

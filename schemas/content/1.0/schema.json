@@ -1551,7 +1551,7 @@
         "isMandatory": {
             "type": "boolean"
         },
-        "testLanguageMapV1": {
+        "languageMapV1": {
             "type": "object"
         }
     }
