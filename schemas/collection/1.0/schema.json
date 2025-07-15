@@ -4,7 +4,6 @@
   "title": "Collection",
   "type": "object",
   "required": [
-    "name",
     "status",
     "mimeType",
     "channel",
@@ -13,7 +12,8 @@
     "contentEncoding",
     "contentDisposition",
     "mediaType",
-    "primaryCategory"
+    "primaryCategory",
+    "courseCategory"
   ],
   "properties": {
     "name": {
