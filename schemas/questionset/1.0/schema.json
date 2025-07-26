@@ -867,6 +867,7 @@
       "type": "string",
       "enum": [
         "Final Program Assessment",
+        "Final Program Assessment UnLocked",
         "Pre Enrolment Assessment"
       ]
     },
