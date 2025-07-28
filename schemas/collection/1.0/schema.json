@@ -1504,6 +1504,12 @@
     },
     "languageMapV1": {
       "type": "object"
+    },
+    "startDate": {
+      "type": "string"
+    },
+    "endDate": {
+      "type": "string"
     }
   }
 }
