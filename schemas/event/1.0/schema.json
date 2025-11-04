@@ -368,7 +368,7 @@
           "type": "number"
         },
         "eventDuration": {
-          "type": "string"
+          "type": "number"
         },
         "meetingSummary": {
           "type": "string"
