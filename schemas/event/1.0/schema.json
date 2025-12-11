@@ -17,7 +17,8 @@
         "contentType": {
             "type": "string",
             "enum": [
-                "Event"
+                "Event",
+                "LearningPathway"
             ]
         },
         "status": {
