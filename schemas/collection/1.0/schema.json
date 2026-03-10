@@ -1535,6 +1535,12 @@
       "items": {
         "type": "object"
       }
+    },
+    "badgeDetails_v2": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
     }      
   }
 }
