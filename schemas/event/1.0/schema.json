@@ -235,6 +235,12 @@
         },
         "depth": {
             "type": "number"
+        },
+        "targetAudiences": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
         }
     }
 }

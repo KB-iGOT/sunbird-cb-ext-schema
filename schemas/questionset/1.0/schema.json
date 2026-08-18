@@ -719,6 +719,12 @@
     "maxAssessmentRetakeAttempts": {
       "type": "number",
       "default": 5
+    },
+    "targetAudiences": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
     }
   },
   "additionalProperties": false
