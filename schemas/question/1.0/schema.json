@@ -637,7 +637,8 @@
         "Blended Program",
         "Curated Program",
         "Standalone Assessment",
-        "Moderated Assessment"
+        "Moderated Assessment",
+        "Comprehensive Assessment"
       ]
     },
     "questionLevel": {
