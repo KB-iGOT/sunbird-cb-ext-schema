@@ -1603,11 +1603,8 @@
         "isTrackable": {
         "type": "boolean"
         },
-        "trainingPlan_v1": {
-          "type": "array",
-          "items": {
-            "type": "object"
-          }
+        "trainingPlan_v2": {
+          "type": "object"
         }
     }
 }
