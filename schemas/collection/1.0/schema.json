@@ -1549,6 +1549,12 @@
     },
     "isTrackable": {
         "type": "boolean"
+    },
+    "trainingPlan_v1": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
     }
   }
 }
