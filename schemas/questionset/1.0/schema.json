@@ -872,7 +872,9 @@
         "Final Program Assessment UnLocked",
         "Pre Enrolment Assessment",
         "Preliminary Assessment",
-        "Final Milestone Assessment"
+        "Final Milestone Assessment",
+        "Optional Pre Assessment",
+        "Mandatory Pre Assessment"
       ]
     },
     "sectorDetails_v1": {
