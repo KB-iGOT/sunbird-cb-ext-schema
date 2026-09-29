@@ -1606,6 +1606,9 @@
         },
         "trainingPlan_v2": {
           "type": "object"
+        },
+        "canUploadResource": {
+            "type": "boolean"
         }
     }
 }

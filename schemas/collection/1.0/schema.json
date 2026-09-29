@@ -1084,6 +1084,28 @@
         "type": "object"
       }
     },
+    "batchSettings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "coordinatorType": {
+            "type": "string"
+          },
+          "activities": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "MANAGE_ALL_BATCHES",
+                "MANAGE_OWN_BATCHES"
+              ]
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
     "year": {
       "type": "string"
     },
