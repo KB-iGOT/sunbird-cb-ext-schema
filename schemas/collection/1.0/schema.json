@@ -16,10 +16,7 @@
   ],
   "properties": {
     "name": {
-      "type": "string",
-      "minLength": 5,
-      "pattern": "^[\\p{L}\\p{M}\\p{N}\\p{Cf}._\\-$/:।()\\[\\]'! ]+$",
-      "maxLength": 70
+      "type": "string"
     },
     "code": {
       "type": "string"
@@ -646,8 +643,7 @@
       ]
     },
     "description": {
-      "type": "string",
-      "format": "html-maxlength-1000"
+      "type": "string"
     },
     "instructions": {
       "type": "string"
