@@ -1494,7 +1494,9 @@
             "Moderated Assessment",
             "Invite-Only Assessment",
             "External Redirect",
-            "Comprehensive Assessment"
+            "Comprehensive Assessment",
+            "Baseline Assessment",
+            "Endline Assessment"
           ]
         },
         "resourceCategory": {
