@@ -638,7 +638,9 @@
         "Curated Program",
         "Standalone Assessment",
         "Moderated Assessment",
-        "Comprehensive Assessment"
+        "Comprehensive Assessment",
+        "Baseline Assessment",
+        "Endline Assessment"
       ]
     },
     "questionLevel": {

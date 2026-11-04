@@ -1446,7 +1446,9 @@
         "Multilingual Course",
         "Pre Enrolment Assessment",
         "Learning Pathway",
-        "Comprehensive Assessment"
+        "Comprehensive Assessment",
+        "Baseline Assessment",
+        "Endline Assessment"
       ]
     },
     "contentTagNames": {
