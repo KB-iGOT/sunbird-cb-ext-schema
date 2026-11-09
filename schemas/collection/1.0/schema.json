@@ -1517,7 +1517,9 @@
     "contextCategory": {
       "type": "string",
       "enum": [
-        "Pre Read Course"
+        "Pre Read Course",
+        "Baseline Assessment",
+        "Endline Assessment"
       ]
     },
     "preEnrolmentResources": {
